@@ -15,6 +15,6 @@ public class ConfigurationModule extends AbstractModule {
     @Override
     protected void configure(){
         bind(UniversityConfiguration.class).toInstance(this.config);
-        bind(String.class).annotatedWith(Names.named("sourceDir")).toInstance(this.config.getInputFile());
+        bind(String.class).annotatedWith(Names.named("inputFile")).toInstance(this.config.getInputFile());
     }
 }

@@ -12,7 +12,11 @@ import io.dropwizard.setup.Environment;
  */
 public class UniversityApplication extends Application<UniversityConfiguration> {
     public static void main(String[] args) throws Exception {
-        new UniversityApplication().run(args);
+        try {
+            new UniversityApplication().run(args);
+        } catch(Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -24,7 +28,7 @@ public class UniversityApplication extends Application<UniversityConfiguration> 
                     Environment environment) {
 
         // nothing to do yet
-        InjectorProvider.setInjector(Guice.createInjector(new DomainModule(), new ConfigurationModule(configuration)));
+        InjectorProvider.setInjector(Guice.createInjector(new ConfigurationModule(configuration), new DomainModule()));
 
         // nothing to do yet
         environment.jersey().register(InjectorProvider.getInjector().getInstance(ReportingResource.class));

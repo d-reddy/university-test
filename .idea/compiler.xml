@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="university-api" />
+        <module name="university-dist" />
         <module name="university-domain" />
         <module name="university-repository" />
       </profile>
@@ -30,6 +31,7 @@
     <bytecodeTargetLevel>
       <module name="university" target="1.8" />
       <module name="university-api" target="1.8" />
+      <module name="university-dist" target="1.8" />
       <module name="university-domain" target="1.8" />
       <module name="university-repository" target="1.8" />
     </bytecodeTargetLevel>

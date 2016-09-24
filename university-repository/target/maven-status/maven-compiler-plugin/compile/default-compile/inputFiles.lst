@@ -1,0 +1,11 @@
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\impl\StudentRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\IDatabase.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\impl\Database.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\IProfessorRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\entities\Student.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\impl\UniversityClassRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\IStudentRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\IUniversityClassRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\entities\UniversityClass.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\impl\ProfessorRepository.java
+D:\git\university\university-repository\src\main\java\com\reddy\university\repository\entities\Professor.java

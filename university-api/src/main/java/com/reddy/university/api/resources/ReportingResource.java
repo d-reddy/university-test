@@ -1,31 +1,37 @@
 package com.reddy.university.api.resources;
 
 import com.google.inject.Inject;
-import com.google.inject.name.Named;
-import com.reddy.university.domain.IReportRequestProcessor;
+import com.reddy.university.domain.IReportService;
+import com.reddy.university.domain.models.UniversityClassSummary;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by deven on 9/24/2016.
  */
 @Path("/report")
 public class ReportingResource {
-    private IReportRequestProcessor processor;
-    private String inputFile;
+    private IReportService reportService;
 
     @Inject
-    public ReportingResource(IReportRequestProcessor processor, @Named("inputFile") String inputFile) {
-        this.inputFile = inputFile;
+    public ReportingResource(IReportService reportService) {
+        this.reportService = reportService;
     }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public String index() {
-        //this.processor.
-        return "<h1>It Works!!!</h1> ";
+    public List<UniversityClassSummary> index() {
+        List<UniversityClassSummary> summaries = new ArrayList<>();
+        try {
+            summaries = this.reportService.getClassesTaught();
+        }catch(Exception e){
+
+        }
+
+        return summaries;
     }
 
 }

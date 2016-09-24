@@ -1,0 +1,8 @@
+com\reddy\university\api\UniversityConfiguration.class
+com\reddy\university\api\resources\ReportingResource.class
+com\reddy\university\api\resources\UniversityClassResource.class
+com\reddy\university\api\ConfigurationModule.class
+com\reddy\university\api\resources\ProfessorResource.class
+com\reddy\university\api\InjectorProvider.class
+com\reddy\university\api\UniversityApplication.class
+com\reddy\university\api\resources\StudentResource.class

@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java" />
+    <bookmark url="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e7415b-867c-4a2b-a071-8b07424b4eac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/university-repository/target/test-classes/test.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/classes/com/reddy/university/repository/Database.class" afterPath="$PROJECT_DIR$/university-repository/target/classes/com/reddy/university/repository/Database.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClassSummary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/services/UniversityClassServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/ProfessorRepository.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportRequestProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/IReportRequestProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/impl/ReportRequestProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/university-repository/target/classes/com/reddy/university/repository/Database.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/ConfigurationModule.class" afterPath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/ConfigurationModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/UniversityApplication.class" afterPath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/UniversityApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/resources/ReportingResource.class" afterPath="$PROJECT_DIR$/university-api/target/classes/com/reddy/university/api/resources/ReportingResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/DomainModule.class" afterPath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/DomainModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/Professor.class" afterPath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/Professor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/Student.class" afterPath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/UniversityClass.class" afterPath="$PROJECT_DIR$/university-domain/target/classes/com/reddy/university/domain/models/UniversityClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/test-classes/com/reddy/university/repository/DatabaseTest.class" afterPath="$PROJECT_DIR$/university-repository/target/test-classes/com/reddy/university/repository/DatabaseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java" afterPath="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.yml" afterPath="$PROJECT_DIR$/configuration.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/pom.xml" afterPath="$PROJECT_DIR$/university-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java" afterPath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java" afterPath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java" afterPath="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/university-api.iml" afterPath="$PROJECT_DIR$/university-api/university-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/pom.xml" afterPath="$PROJECT_DIR$/university-domain/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Professor.java" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Professor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Student.java" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/university-domain.iml" afterPath="$PROJECT_DIR$/university-domain/university-domain.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java" afterPath="$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/university-repository/src/test/resources/test.csv" afterPath="$PROJECT_DIR$/university-repository/src/test/resources/1class1prof2students.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/university-repository.iml" afterPath="$PROJECT_DIR$/university-repository/university-repository.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university.iml" afterPath="$PROJECT_DIR$/university.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportRequestProcessor.java" afterPath="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java" afterPath="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java" />
     </list>
     <ignored path="university.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,6 +50,7 @@
     <ignored path="$PROJECT_DIR$/university-repository/target/" />
     <ignored path="$PROJECT_DIR$/university-domain/target/" />
     <ignored path="$PROJECT_DIR$/university-api/target/" />
+    <ignored path="$PROJECT_DIR$/university-dist/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +59,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/university$UniversityClassServiceTest.coverage" NAME="UniversityClassServiceTest Coverage Results" MODIFIED="1474735175461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.reddy.university.domain.services.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -37,36 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UniversityClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/UniversityClass.java">
+      <file leaf-file-name="DomainModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Professor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Professor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="76" column="119" selection-start-line="76" selection-start-column="116" selection-end-line="76" selection-end-column="119" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,12 +85,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FileReader.java">
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="197">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportingResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversityApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,29 +158,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Student.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,31 +172,20 @@
         <entry file="file://$PROJECT_DIR$/configuration.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1class1prof2students.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-repository/src/test/resources/1class1prof2students.csv">
+      <file leaf-file-name="UniversityClassRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/UniversityClassRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomainModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,39 +212,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Class.java" />
-        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/helpers/CsvHelper.java" />
-        <option value="$PROJECT_DIR$/university-repository/pom.xml" />
-        <option value="$PROJECT_DIR$/configuration.yml" />
-        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/helpers/FileHelper.java" />
-        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/helpers/Database4.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/helpers/Database.java" />
         <option value="$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar!/org/apache/commons/csv/CSVFormat.class" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/impl/RequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/IReportRequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-domain/src/main/java/impl/RequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/RequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/university-api/pom.xml" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/com/reddy/university/api/resources/ReportingResource.java" />
-        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportRequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/ConfigurationModule.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/InjectorProvider.java" />
-        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApp.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityConfiguration.java" />
-        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java" />
-        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java" />
-        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java" />
-        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportRequestProcessor.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/UniversityClass.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Student.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Professor.java" />
         <option value="$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/resources/test.csv" />
         <option value="$PROJECT_DIR$/university-repository/src/test/resources/1class1prof2students.csv" />
-        <option value="$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IDatabase.java" />
         <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IProfessorRepository.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IStudentRepository.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IUniversityClassRepository.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportRequestProcessor.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IStudentService.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Student.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Professor.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/UniversityClassServiceTest.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportRequestProcessor.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/services/UniversityClassServiceTest.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/report/UniversityClassSummary.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClassSummary.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IUniversityClassService.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/mappers/UniversityClassMapper.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/UniversityClassService.java" />
+        <option value="$PROJECT_DIR$/university-api/pom.xml" />
+        <option value="$PROJECT_DIR$/university-dist/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportService.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportService.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/RepositoryModule.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/ProfessorRepository.java" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/UniversityClassRepository.java" />
+        <option value="$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java" />
+        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java" />
+        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java" />
+        <option value="$PROJECT_DIR$/configuration.yml" />
+        <option value="$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java" />
+        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java" />
       </list>
     </option>
   </component>
@@ -311,10 +365,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -428,7 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,6 +610,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="university-dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="university" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="university-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -674,26 +738,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../other/savo-search-develop/search" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reddy.university.domain.mappers" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reddy.university.domain" />
+      <recent name="com.reddy.university.repository.impl" />
       <recent name="com.reddy.university.repository.entities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\university\university-repository\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
+  <component name="RunManager" selected="Application.University">
     <configuration default="false" name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.reddy.university.repository.*" />
+          <option name="PATTERN" value="com.reddy.university.repository.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -707,6 +774,32 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniversityClassServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.reddy.university.domain.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="university-domain" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.reddy.university.domain.services" />
+      <option name="MAIN_CLASS_NAME" value="com.reddy.university.domain.services.UniversityClassServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -769,16 +862,16 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.reddy.university.api.UniversityApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server configuration.yml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="university-api" />
       <envs />
       <method />
     </configuration>
@@ -950,12 +1043,30 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseTest" />
+    <configuration default="false" name="University" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.reddy.university.api.UniversityApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server configuration.yml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="university-api" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.University" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UniversityClassServiceTest" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UniversityClassServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -973,27 +1084,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest - 2016.09.24 at 08h 46m 02s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 08h 49m 07s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 09h 33m 41s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 09h 36m 56s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 09h 44m 52s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 09h 51m 41s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatabaseTest - 2016.09.24 at 09h 53m 28s.xml">
-      <configuration name="DatabaseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DatabaseTest - 2016.09.24 at 09h 53m 40s.xml">
       <configuration name="DatabaseTest" configurationId="JUnit" />
     </history-entry>
@@ -1003,6 +1093,27 @@
     <history-entry file="DatabaseTest - 2016.09.24 at 10h 09m 04s.xml">
       <configuration name="DatabaseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DatabaseTest - 2016.09.24 at 10h 43m 06s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest - 2016.09.24 at 13h 17m 30s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest - 2016.09.24 at 13h 22m 01s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniversityClassServiceTest - 2016.09.24 at 11h 39m 36s.xml">
+      <configuration name="UniversityClassServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniversityClassServiceTest - 2016.09.24 at 11h 39m 59s.xml">
+      <configuration name="UniversityClassServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniversityClassServiceTest - 2016.09.24 at 11h 41m 49s.xml">
+      <configuration name="UniversityClassServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniversityClassServiceTest - 2016.09.24 at 11h 50m 46s.xml">
+      <configuration name="UniversityClassServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1010,23 +1121,24 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34355178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3434453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3347779" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1041,13 +1153,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java</url>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/services/UniversityClassServiceTest.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1060,98 +1184,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/UniversityClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#516#517#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#590#591#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#668#669#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar!/org/apache/commons/csv/CSVRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar!/org/apache/commons/csv/CSVFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1161,14 +1193,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/helpers/CsvHelper.java" />
-    <entry file="file://$PROJECT_DIR$/university-repository/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/org/apache/commons/codec/digest/DigestUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -1180,14 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="38" column="39" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1208,104 +1224,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ProfessorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/UniversityClassResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/InjectorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1315,20 +1237,10 @@
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1344,57 +1256,357 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/UniversityClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Student.java">
+    <entry file="file://$PROJECT_DIR$/university-repository/src/test/resources/1class1prof2students.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/UniversityClassResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Professor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="27" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#622#623#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FileReader.java">
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/mappers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/entities/UniversityClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/mappers/UniversityClassMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/test/java/com/reddy/university/domain/services/UniversityClassServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClassSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IUniversityClassService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportRequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IUniversityClassRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IStudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IProfessorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/IDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-dist/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/mappers/UniversityClassMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="46" column="25" selection-start-line="42" selection-start-column="12" selection-end-line="46" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/InjectorProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/RepositoryModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/ProfessorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/IReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/UniversityClassService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/impl/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/UniversityClassRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/UniversityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/ConfigurationModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1409,35 +1621,32 @@
     <entry file="file://$PROJECT_DIR$/configuration.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/test/resources/1class1prof2students.csv">
+    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/impl/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/main/java/com/reddy/university/repository/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="76" column="119" selection-start-line="76" selection-start-column="116" selection-end-line="76" selection-end-column="119" />
+        <state relative-caret-position="197">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university-repository/src/test/java/com/reddy/university/repository/DatabaseTest.java">
+    <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/resources/ReportingResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        <state relative-caret-position="289">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1494,7 +1703,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>university-domain</last-edited>
+          <last-edited>university-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

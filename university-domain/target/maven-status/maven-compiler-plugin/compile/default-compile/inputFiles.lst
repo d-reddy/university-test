@@ -1,0 +1,10 @@
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\DomainModule.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\impl\ReportService.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\IUniversityClassService.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\mappers\UniversityClassMapper.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\models\Student.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\models\UniversityClass.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\impl\UniversityClassService.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\IReportService.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\models\UniversityClassSummary.java
+D:\git\university\university-domain\src\main\java\com\reddy\university\domain\models\Professor.java
