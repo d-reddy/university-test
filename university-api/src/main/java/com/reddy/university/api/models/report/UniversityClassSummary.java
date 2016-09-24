@@ -1,4 +1,4 @@
-package com.reddy.university.domain.models;
+package com.reddy.university.api.models.report;
 
 /**
  * Created by deven on 9/24/2016.
@@ -10,14 +10,6 @@ public class UniversityClassSummary {
     public UniversityClassSummary(String name, String professor){
         this.name = name;
         this.professor = professor;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getProfessor() {
-        return professor;
     }
 
 }

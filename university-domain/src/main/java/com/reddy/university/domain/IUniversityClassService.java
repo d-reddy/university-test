@@ -1,9 +1,9 @@
 package com.reddy.university.domain;
 
 import com.reddy.university.domain.models.UniversityClass;
-import com.reddy.university.domain.models.UniversityClassSummary;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by deven on 9/24/2016.
@@ -11,6 +11,5 @@ import java.util.List;
 public interface IUniversityClassService {
     List<UniversityClass> get() throws Exception;
 
-    List<UniversityClassSummary> getSummaries() throws Exception;
-
+    Map<String,Integer> getStudentBreakdown() throws Exception;
 }

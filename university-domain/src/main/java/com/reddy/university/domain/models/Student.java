@@ -18,6 +18,10 @@ public class Student {
         return universityClasses;
     }
 
+    public void addClass(String universityClass) {
+        this.universityClasses.add(universityClass);
+    }
+
     public Integer getId() {
         return id;
     }

@@ -1,7 +1,6 @@
 package com.reddy.university.domain.mappers;
 
 import com.reddy.university.domain.models.UniversityClass;
-import com.reddy.university.domain.models.UniversityClassSummary;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,12 +19,4 @@ public class UniversityClassMapper {
         return models;
     }
 
-    public List<UniversityClassSummary> toModelSummaries(List<com.reddy.university.repository.entities.UniversityClass> entities){
-        List<UniversityClassSummary> models = new ArrayList<>();
-        entities.forEach(entity -> {
-            UniversityClassSummary model = new UniversityClassSummary(entity.getName(), entity.getProfessor().getName());
-            models.add(model);
-        });
-        return models;
-    }
 }
