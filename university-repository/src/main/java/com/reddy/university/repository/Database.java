@@ -70,8 +70,8 @@ public class Database {
     }
 
     private void buildEntityRelationships(CSVRecord record) throws Exception {
-        String universityClass = record.get(0).toLowerCase().replaceAll("\\s+","");
-        String professor = record.get(1).toLowerCase().replaceAll("\\s+","");
+        String universityClass = record.get(0).replaceAll("\\s+","");
+        String professor = record.get(1).replaceAll("\\s+","");
         Integer studentId = Integer.parseInt(record.get(2).replaceAll("\\s+",""));
 
         List<Student> foundStudents = students.stream().filter(s -> s.getId().equals(studentId)).collect(Collectors.toList());
