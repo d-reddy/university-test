@@ -6,6 +6,7 @@ import com.reddy.university.repository.entities.UniversityClass;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.List;
 
 /**
@@ -15,7 +16,11 @@ public class DatabaseTest {
 
     @Test
     public void whenTwoDistinctClassRecords_ReturnsTwoClasses() throws Exception{
-        Database db = new Database("resources/test.csv");
+
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource("test.csv").getFile());
+
+        Database db = new Database(file);
 
         List<UniversityClass> classes = db.getClasses();
         List<Student> students = db.getStudents();

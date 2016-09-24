@@ -23,9 +23,9 @@ public class Database {
     private List<Professor> professors = new ArrayList<>();
 
     private String currentMd5 = "";
-    private String file;
+    private File file;
 
-    public Database(String file){
+    public Database(File file){
         this.file = file;
     }
 
@@ -45,7 +45,7 @@ public class Database {
     }
 
     private void build() throws Exception{
-        try (FileInputStream fis = new FileInputStream(new File(file))) {
+        try (FileInputStream fis = new FileInputStream(file)) {
 
             String md5 = org.apache.commons.codec.digest.DigestUtils.md5Hex(fis);
 
