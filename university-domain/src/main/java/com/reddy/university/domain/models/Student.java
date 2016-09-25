@@ -25,4 +25,8 @@ public class Student {
     public Integer getId() {
         return id;
     }
+
+    public Integer getRegisteredClassCount() {
+        return universityClasses.size();
+    }
 }
