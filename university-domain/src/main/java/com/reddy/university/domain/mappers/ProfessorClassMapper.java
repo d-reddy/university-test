@@ -9,6 +9,13 @@ import java.util.List;
  * Created by deven on 9/24/2016.
  */
 public class ProfessorClassMapper {
+
+    /**
+     * this is a mapper to transform entities read from the "db repository" to business models for the domain
+     *
+     * @param entities
+     * @return a list of business domain models
+     */
     public static List<Professor> toModels(List<com.reddy.university.repository.entities.Professor> entities){
         List<Professor> models = new ArrayList<>();
         entities.forEach(entity -> {

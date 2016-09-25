@@ -31,8 +31,4 @@ public class UniversityClass {
     public void addStudent(Student student) {
         this.students.add(student);
     }
-
-    public void clearStudents() {
-        this.students.clear();
-    }
 }

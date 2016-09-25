@@ -9,6 +9,10 @@ import io.dropwizard.setup.Environment;
 
 /**
  * Created by deven on 9/24/2016.
+ *
+ * This is a common pattern for Dropwizard applications.  This class is responsible for bootstrapping
+ * the application for the most part.
+ *
  */
 public class UniversityApplication extends Application<UniversityConfiguration> {
     public static void main(String[] args) throws Exception {
@@ -27,10 +31,10 @@ public class UniversityApplication extends Application<UniversityConfiguration> 
     public void run(UniversityConfiguration configuration,
                     Environment environment) {
 
-        // nothing to do yet
+        // set injector for DI, and register implementations through "Modules"
         InjectorProvider.setInjector(Guice.createInjector(new ConfigurationModule(configuration), new DomainModule()));
 
-        // nothing to do yet
+        // register endpoints
         environment.jersey().register(InjectorProvider.getInjector().getInstance(ReportingResource.class));
     }
 }

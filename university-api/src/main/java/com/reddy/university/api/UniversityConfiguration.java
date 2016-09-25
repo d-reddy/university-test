@@ -8,7 +8,7 @@ import io.dropwizard.Configuration;
 public class UniversityConfiguration extends Configuration{
     private String inputFile;
 
-
+    //the input csv file to read and build from (specified in configuration.yml)
     public String getInputFile() {
         return inputFile;
     }

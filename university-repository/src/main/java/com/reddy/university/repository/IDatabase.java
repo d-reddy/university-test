@@ -1,8 +1,6 @@
 package com.reddy.university.repository;
 
-import com.reddy.university.repository.entities.Professor;
-import com.reddy.university.repository.entities.Student;
-import com.reddy.university.repository.entities.UniversityClass;
+import com.reddy.university.repository.entities.*;
 
 import java.util.List;
 

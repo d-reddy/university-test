@@ -1,7 +1,6 @@
 package com.reddy.university.domain.mappers;
 
 import com.reddy.university.domain.models.Student;
-import com.reddy.university.domain.models.UniversityClass;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +9,13 @@ import java.util.List;
  * Created by deven on 9/24/2016.
  */
 public class StudentClassMapper {
+
+    /**
+     * this is a mapper to transform entities read from the "db repository" to business models for the domain
+     *
+     * @param entities
+     * @return a list of business domain models
+     */
     public static List<Student> toModels(List<com.reddy.university.repository.entities.Student> entities){
         List<Student> models = new ArrayList<>();
         entities.forEach(entity -> {

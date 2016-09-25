@@ -2,16 +2,9 @@ package com.reddy.university.api.resources;
 
 import com.google.inject.Inject;
 import com.reddy.university.api.models.Report;
-import com.reddy.university.api.reports.ProfessorReportGenerator;
-import com.reddy.university.api.reports.StudentReportGenerator;
-import com.reddy.university.api.reports.UniversityClassReportGenerator;
-import com.reddy.university.domain.IProfessorService;
-import com.reddy.university.domain.IStudentService;
-import com.reddy.university.domain.IUniversityClassService;
-import com.reddy.university.domain.models.Professor;
-import com.reddy.university.domain.models.Student;
-import com.reddy.university.domain.models.UniversityClass;
-
+import com.reddy.university.api.reports.*;
+import com.reddy.university.domain.*;
+import com.reddy.university.domain.models.*;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
@@ -26,7 +19,8 @@ public class ReportingResource {
     private IProfessorService professorService;
 
     @Inject
-    public ReportingResource(IUniversityClassService universityClassService, IStudentService studentService, IProfessorService professorService) {
+    public ReportingResource(IUniversityClassService universityClassService, IStudentService studentService,
+                             IProfessorService professorService) {
         this.universityClassService = universityClassService;
         this.studentService = studentService;
         this.professorService = professorService;
@@ -53,7 +47,7 @@ public class ReportingResource {
             //professor reports
             List<Professor> professors = this.professorService.get();
             report.professorClassCountReport = ProfessorReportGenerator.teachMultipleClasses(professors);
-            report.professorWith2OrMoreOfSameStudent = ProfessorReportGenerator.withTwoOrMoreOfTheSameStudentInEachClassTheyTeach(universityClasses);
+            report.professorWith2OrMoreOfSameStudent = ProfessorReportGenerator.withTwoOrMoreCommonStudentsInEachClass(universityClasses);
 
         } catch(Exception e){
 
@@ -61,5 +55,4 @@ public class ReportingResource {
 
         return report;
     }
-
 }

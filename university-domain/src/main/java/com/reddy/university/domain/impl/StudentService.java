@@ -2,13 +2,9 @@ package com.reddy.university.domain.impl;
 
 import com.google.inject.Inject;
 import com.reddy.university.domain.IStudentService;
-import com.reddy.university.domain.IUniversityClassService;
 import com.reddy.university.domain.mappers.StudentClassMapper;
-import com.reddy.university.domain.mappers.UniversityClassMapper;
 import com.reddy.university.domain.models.Student;
-import com.reddy.university.domain.models.UniversityClass;
 import com.reddy.university.repository.IStudentRepository;
-import com.reddy.university.repository.IUniversityClassRepository;
 
 import java.util.List;
 

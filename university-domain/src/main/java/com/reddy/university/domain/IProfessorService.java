@@ -1,7 +1,6 @@
 package com.reddy.university.domain;
 
 import com.reddy.university.domain.models.Professor;
-
 import java.util.List;
 
 /**

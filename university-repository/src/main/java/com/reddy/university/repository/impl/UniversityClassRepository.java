@@ -2,9 +2,7 @@ package com.reddy.university.repository.impl;
 
 import com.google.inject.Inject;
 import com.reddy.university.repository.IDatabase;
-import com.reddy.university.repository.IProfessorRepository;
 import com.reddy.university.repository.IUniversityClassRepository;
-import com.reddy.university.repository.entities.Professor;
 import com.reddy.university.repository.entities.UniversityClass;
 
 import java.util.List;
