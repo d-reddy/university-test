@@ -21,4 +21,9 @@ public class Professor {
     public List<String> getUniversityClasses() {
         return universityClasses;
     }
+
+    public void addClass(String universityClass) {
+        this.universityClasses.add(universityClass);
+    }
+
 }

@@ -1,7 +1,6 @@
 package com.reddy.university.domain.mappers;
 
-import com.reddy.university.domain.models.Student;
-import com.reddy.university.domain.models.UniversityClass;
+import com.reddy.university.domain.models.Professor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +8,11 @@ import java.util.List;
 /**
  * Created by deven on 9/24/2016.
  */
-public class StudentClassMapper {
-    public static List<Student> toModels(List<com.reddy.university.repository.entities.Student> entities){
-        List<Student> models = new ArrayList<>();
+public class ProfessorClassMapper {
+    public static List<Professor> toModels(List<com.reddy.university.repository.entities.Professor> entities){
+        List<Professor> models = new ArrayList<>();
         entities.forEach(entity -> {
-            Student model = new Student(entity.getId());
+            Professor model = new Professor(entity.getName());
             entity.getUniversityClasses().forEach(universityClass -> model.addClass(universityClass.getName()));
             models.add(model);
         });

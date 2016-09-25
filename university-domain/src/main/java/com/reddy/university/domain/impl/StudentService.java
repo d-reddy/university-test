@@ -25,8 +25,7 @@ public class StudentService implements IStudentService {
 
     @Override
     public List<Student> get() throws Exception {
-        StudentClassMapper mapper = new StudentClassMapper();
-        return mapper.toModels(studentRepository.get());
+        return StudentClassMapper.toModels(studentRepository.get());
     }
 
 }

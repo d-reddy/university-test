@@ -20,4 +20,10 @@ public class Report {
 
     @JsonProperty(value = "How many students take more than one class")
     public Map<Integer,List<Integer>> studentClassCountReport;
+
+    @JsonProperty(value = "How many professors teach more than one class")
+    public Map<Integer,List<String>> professorClassCountReport;
+
+    @JsonProperty(value = "Professors with at least 2 classes with 2 or more of the same students")
+    public Map<String, List<String>> professorWith2OrMoreOfSameStudent;
 }

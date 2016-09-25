@@ -9,7 +9,7 @@ import java.util.List;
  * Created by deven on 9/24/2016.
  */
 public class UniversityClassMapper {
-    public List<UniversityClass> toModels(List<com.reddy.university.repository.entities.UniversityClass> entities){
+    public static List<UniversityClass> toModels(List<com.reddy.university.repository.entities.UniversityClass> entities){
         List<UniversityClass> models = new ArrayList<>();
         entities.forEach(entity -> {
             UniversityClass model = new UniversityClass(entity.getName(), entity.getProfessor().getName());
