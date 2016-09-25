@@ -6,17 +6,9 @@ import java.util.List;
 /**
  * Created by deven on 9/24/2016.
  */
-public class UniversityClassStudentSummary extends UniversityClassSummary {
+public class UniversityClassStudentSummary {
 
-    private Integer registeredStudents;
-    public List<Integer> students = new ArrayList<>();
+    public String universityClass;
 
-    public UniversityClassStudentSummary(String name, String professor) {
-        super(name,professor);
-    }
-
-    public Integer getRegisteredStudents() {
-        return students.size();
-    }
-
+    public Integer registeredStudents;
 }

@@ -1,5 +1,6 @@
 package com.reddy.university.domain.impl;
 
+import com.google.common.collect.Multimap;
 import com.google.inject.Inject;
 import com.reddy.university.domain.IUniversityClassService;
 import com.reddy.university.domain.mappers.UniversityClassMapper;
@@ -27,14 +28,20 @@ public class UniversityClassService implements IUniversityClassService {
         return mapper.toModels(universityClassRepository.get());
     }
 
-    @Override
-    public Map<String,Integer> getStudentBreakdown() throws Exception {
-        UniversityClassMapper mapper = new UniversityClassMapper();
-        List<UniversityClass> classes = mapper.toModels(universityClassRepository.get());
-
-        Map<String, Integer> classGroup =
-                classes.stream().collect(Collectors.groupingBy(UniversityClass::getName, Collectors.summingInt(UniversityClass::getRegisteredStudents)));
-
-        return classGroup;
-    }
+//    @Override
+//    public Multimap<String,String> get() throws Exception {
+//        UniversityClassMapper mapper = new UniversityClassMapper();
+//        return mapper.toModels(universityClassRepository.get());
+//    }
+//
+//    @Override
+//    public Map<String,Integer> getStudentBreakdown() throws Exception {
+//        UniversityClassMapper mapper = new UniversityClassMapper();
+//        List<UniversityClass> classes = mapper.toModels(universityClassRepository.get());
+//
+//        Map<String, Integer> classGroup =
+//                classes.stream().collect(Collectors.groupingBy(UniversityClass::getName, Collectors.summingInt(UniversityClass::getRegisteredStudents)));
+//
+//        return classGroup;
+//    }
 }

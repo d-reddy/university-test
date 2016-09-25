@@ -32,7 +32,6 @@ public class UniversityClass {
         return professor;
     }
 
-
     public Integer getRegisteredStudents() {
         return students.size();
     }

@@ -19,14 +19,13 @@ public class UniversityClassMapper {
         });
         return models;
     }
-
-    public List<UniversityClassStudentSummary> toModelSummariesWithStudents(List<com.reddy.university.domain.models.UniversityClass> domainModels){
-        List<UniversityClassStudentSummary> models = new ArrayList<>();
-        domainModels.forEach(domainModel -> {
-            UniversityClassStudentSummary model = new UniversityClassStudentSummary(domainModel.getName(), domainModel.getProfessor());
-            domainModel.getStudents().forEach(student -> model.students.add(student));
-            models.add(model);
-        });
-        return models;
-    }
+//    public List<UniversityClassStudentSummary> toModelSummariesWithStudents(List<com.reddy.university.domain.models.UniversityClass> domainModels){
+//        List<UniversityClassStudentSummary> models = new ArrayList<>();
+//        domainModels.forEach(domainModel -> {
+//            UniversityClassStudentSummary model = new UniversityClassStudentSummary(domainModel.getName(), domainModel.getProfessor());
+//            domainModel.getStudents().forEach(student -> model.students.add(student));
+//            models.add(model);
+//        });
+//        return models;
+//    }
 }
