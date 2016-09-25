@@ -1,13 +1,12 @@
 package com.reddy.university.repository;
 
-import com.reddy.university.repository.entities.Professor;
-import com.reddy.university.repository.entities.Student;
-import com.reddy.university.repository.entities.UniversityClass;
+import com.reddy.university.repository.entities.*;
 import com.reddy.university.repository.impl.Database;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.List;
 
 /**
@@ -42,5 +41,22 @@ public class DatabaseTest {
         Assert.assertTrue(db.getUniversityClasses().get(0).getStudents().get(0).getUniversityClasses().get(0).getName().equals("Chemistry"));
         Assert.assertTrue(db.getUniversityClasses().get(0).getStudents().get(1).getUniversityClasses().get(0).getName().equals("Chemistry"));
 
+    }
+
+    @Test(expected=Exception.class)
+    public void whenDataIntegrityViolationInCsv_throwsException() throws Exception {
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource("1class0prof0student.csv").getFile());
+
+        Database db = new Database(file);
+
+        List<UniversityClass> classes = db.getUniversityClasses();
+    }
+
+
+    @Test(expected=FileNotFoundException.class)
+    public void whenInputFileNotFound_throwsException() throws Exception {
+        Database db = new Database("/does/not/exist");
+        List<UniversityClass> classes = db.getUniversityClasses();
     }
 }

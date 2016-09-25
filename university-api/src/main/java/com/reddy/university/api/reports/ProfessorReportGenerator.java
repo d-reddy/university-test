@@ -21,20 +21,25 @@ public class ProfessorReportGenerator {
      *
      *         returning a map mainly for ease of json construction
      */
-    public static Map<Integer,List<String>> teachMultipleClasses(List<Professor> professors){
-        Map<Integer,List<String>> professorMap = new HashMap<Integer, List<String>>();
+    public static Map<Integer,List<String>> teachMultipleClasses(List<Professor> professors) throws Exception {
+        try {
+            Map<Integer,List<String>> professorMap = new HashMap<Integer, List<String>>();
 
-        //get all professors who teach more than 1 class
-        List<Professor> filteredProfessors = professors.stream()
-                .filter(professor -> professor.getUniversityClasses().size() > 1)
-                .collect(Collectors.toList());
+            //get all professors who teach more than 1 class
+            List<Professor> filteredProfessors = professors.stream()
+                    .filter(professor -> professor.getUniversityClasses().size() > 1)
+                    .collect(Collectors.toList());
 
-        //build map result to return
-        professorMap.put(filteredProfessors.size(), filteredProfessors.stream()
-                .map(professor -> professor.getName())
-                .collect(Collectors.toList()));
+            //build map result to return
+            professorMap.put(filteredProfessors.size(), filteredProfessors.stream()
+                    .map(professor -> professor.getName())
+                    .collect(Collectors.toList()));
 
-        return professorMap;
+            return professorMap;
+
+        } catch(Exception e){
+            throw new Exception("error processing professor class group report", e);
+        }
     }
 
     /**
@@ -50,46 +55,50 @@ public class ProfessorReportGenerator {
      * @return Map where the key is the professor meeting the criteria and the value is a string concatenation
      *         of the classes and students
      */
-    public static Map<String, List<String>> withTwoOrMoreCommonStudentsInEachClass(List<UniversityClass> universityClasses){
+    public static Map<String, List<String>> withTwoOrMoreCommonStudentsInEachClass(List<UniversityClass> universityClasses) throws Exception {
+        try {
+            Map<String, List<String>> professorMatches = new HashMap<String, List<String>>();
 
-        Map<String, List<String>> professorMatches = new HashMap<String, List<String>>();
+            //only pull the professors and their classes, for professors that teach 2 or more classes
+            Map<String, List<UniversityClass>> professorBreakdown = universityClasses.stream()
+                    .collect(Collectors.groupingBy(z -> z.getProfessor())).entrySet().stream()
+                    .filter(entry -> entry.getValue().size() >= 2)
+                    .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()));
 
-        //only pull the professors and their classes, for professors that teach 2 or more classes
-        Map<String, List<UniversityClass>> professorBreakdown = universityClasses.stream()
-                .collect(Collectors.groupingBy(z -> z.getProfessor())).entrySet().stream()
-                .filter(entry -> entry.getValue().size() >= 2)
-                .collect(Collectors.toMap(p -> p.getKey(), p -> p.getValue()));
+            //for each one of the professors, see if they meet the criteria, and if so, add them
+            professorBreakdown.forEach((professor, listClasses) ->{
 
-        //for each one of the professors, see if they meet the criteria, and if so, add them
-        professorBreakdown.forEach((professor, listClasses) ->{
-
-            //get a list of the list of students for each class the professor teaches
-            List<List<Integer>> studentLists = listClasses.stream()
-                    .map(universityClass -> universityClass.getStudents())
-                    .collect(Collectors.toList());
-
-            //compute the intersection of those lists, because we only care about students that exist in each
-            //of the professors classes based on the requirements. ie if a professor teaches 3 classes, and
-            //has 2 students that both attend only 2 of his 3 classes, this would NOT meet the requirement.  The
-            //same 2 students would need to attend ALL 3 classes to qualify.
-            Set<Integer> intersection = new HashSet<Integer>(studentLists.get(0));
-            for (List<Integer> studentList : studentLists.subList(1, studentLists.size())) {
-                intersection = Sets.intersection(intersection, new HashSet<Integer>(studentList));
-            }
-            List<Integer> students = Lists.newArrayList(intersection);
-
-            //the professor only meets the criteria if there are 2 or more of the same students that
-            //attend each of his classes. ie if the professor teaches 2 classes and there is only 1 common student
-            //in both, then the professor does not qualify, there has to be an intersection of >2.
-            if (students.size() >= 2){
-                List<String> data = listClasses.stream().map(universityClass -> universityClass.getName())
+                //get a list of the list of students for each class the professor teaches
+                List<List<Integer>> studentLists = listClasses.stream()
+                        .map(universityClass -> universityClass.getStudents())
                         .collect(Collectors.toList());
-                data.addAll(students.stream().map(student -> student.toString()).collect(Collectors.toList()));
-                professorMatches.put(professor, data);
-            }
-        } );
 
-        return professorMatches;
+                //compute the intersection of those lists, because we only care about students that exist in each
+                //of the professors classes based on the requirements. ie if a professor teaches 3 classes, and
+                //has 2 students that both attend only 2 of his 3 classes, this would NOT meet the requirement.  The
+                //same 2 students would need to attend ALL 3 classes to qualify.
+                Set<Integer> intersection = new HashSet<Integer>(studentLists.get(0));
+                for (List<Integer> studentList : studentLists.subList(1, studentLists.size())) {
+                    intersection = Sets.intersection(intersection, new HashSet<Integer>(studentList));
+                }
+                List<Integer> students = Lists.newArrayList(intersection);
+
+                //the professor only meets the criteria if there are 2 or more of the same students that
+                //attend each of his classes. ie if the professor teaches 2 classes and there is only 1 common student
+                //in both, then the professor does not qualify, there has to be an intersection of >2.
+                if (students.size() >= 2){
+                    List<String> data = listClasses.stream().map(universityClass -> universityClass.getName())
+                            .collect(Collectors.toList());
+                    data.addAll(students.stream().map(student -> student.toString()).collect(Collectors.toList()));
+                    professorMatches.put(professor, data);
+                }
+            } );
+
+            return professorMatches;
+
+        } catch (Exception e){
+            throw new Exception("error processing professor common student report", e);
+        }
     }
 
 }

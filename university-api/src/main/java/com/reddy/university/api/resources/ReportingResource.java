@@ -5,6 +5,7 @@ import com.reddy.university.api.models.Report;
 import com.reddy.university.api.reports.*;
 import com.reddy.university.domain.*;
 import com.reddy.university.domain.models.*;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.List;
  */
 @Path("/report")
 public class ReportingResource {
+
     private IUniversityClassService universityClassService;
     private IStudentService studentService;
     private IProfessorService professorService;
@@ -28,11 +30,10 @@ public class ReportingResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Report index() {
+    public Report index() throws Exception {
         Report report = new Report();
 
         try {
-
             //university class reports
             List<UniversityClass> universityClasses = this.universityClassService.get();
 
@@ -50,7 +51,7 @@ public class ReportingResource {
             report.professorWith2OrMoreOfSameStudent = ProfessorReportGenerator.withTwoOrMoreCommonStudentsInEachClass(universityClasses);
 
         } catch(Exception e){
-
+            throw e;
         }
 
         return report;

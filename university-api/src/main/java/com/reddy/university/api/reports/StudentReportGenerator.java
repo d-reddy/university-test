@@ -18,10 +18,14 @@ public class StudentReportGenerator {
      * @param students returned from domain
      * @return Map where key is student, and value is a list of the classes they are taking
      */
-    public static Map<Integer,List<String>> classBreakdown(List<Student> students){
-        //simply build and return the map of student and classes.
-        return students.stream()
-                .collect(Collectors.toMap(Student::getId, student -> student.getUniversityClasses()));
+    public static Map<Integer,List<String>> classBreakdown(List<Student> students) throws Exception {
+        try {
+            //simply build and return the map of student and classes.
+            return students.stream()
+                    .collect(Collectors.toMap(Student::getId, student -> student.getUniversityClasses()));
+        } catch(Exception e){
+            throw new Exception("error processing student class breakdown report", e);
+        }
     }
 
     /**
@@ -33,18 +37,22 @@ public class StudentReportGenerator {
      *
      *         returning a map mainly for ease of json construction
      */
-    public static Map<Integer,List<Integer>> inMultipleClasses(List<Student> students){
-        Map<Integer,List<Integer>> studentMap = new HashMap<Integer, List<Integer>>();
+    public static Map<Integer,List<Integer>> inMultipleClasses(List<Student> students) throws Exception{
+        try {
+            Map<Integer,List<Integer>> studentMap = new HashMap<Integer, List<Integer>>();
 
-        //filter list of students taking more than 1 class
-        List<Student> filteredStudents = students.stream()
-                .filter(student -> student.getUniversityClasses().size() > 1)
-                .collect(Collectors.toList());
+            //filter list of students taking more than 1 class
+            List<Student> filteredStudents = students.stream()
+                    .filter(student -> student.getUniversityClasses().size() > 1)
+                    .collect(Collectors.toList());
 
-        //build map where key is the size of the list of students, and value is the list of students.
-        studentMap.put(filteredStudents.size(), filteredStudents.stream().map(student -> student.getId())
-                .collect(Collectors.toList()));
+            //build map where key is the size of the list of students, and value is the list of students.
+            studentMap.put(filteredStudents.size(), filteredStudents.stream().map(student -> student.getId())
+                    .collect(Collectors.toList()));
 
-        return studentMap;
+            return studentMap;
+        } catch(Exception e){
+            throw new Exception("error processing student multiple class report", e);
+        }
     }
 }

@@ -16,13 +16,17 @@ public class StudentClassMapper {
      * @param entities
      * @return a list of business domain models
      */
-    public static List<Student> toModels(List<com.reddy.university.repository.entities.Student> entities){
-        List<Student> models = new ArrayList<>();
-        entities.forEach(entity -> {
-            Student model = new Student(entity.getId());
-            entity.getUniversityClasses().forEach(universityClass -> model.addClass(universityClass.getName()));
-            models.add(model);
-        });
-        return models;
+    public static List<Student> toModels(List<com.reddy.university.repository.entities.Student> entities) throws Exception {
+        try {
+            List<Student> models = new ArrayList<>();
+            entities.forEach(entity -> {
+                Student model = new Student(entity.getId());
+                entity.getUniversityClasses().forEach(universityClass -> model.addClass(universityClass.getName()));
+                models.add(model);
+            });
+            return models;
+        } catch (Exception e){
+            throw new Exception("error mapping student", e);
+        }
     }
 }
