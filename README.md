@@ -9,8 +9,8 @@ This application provides an api to retrive the answer to the following question
 * How many students take more than one Class?  List them.
 * How many professors teach more than one Class?
 
-## Technical Design Summary
-This is Java based application using the Dropwizard framework.  The application is composed of 3 main modules.
+## Module Summary
+This is a Java based application using the Dropwizard framework.  The application is composed of 3 main modules.
 
 ### university-api: 
 * bootstraps the dropwizard application (setting up google inject for DI, declaring the api, reading configuration, etc)
