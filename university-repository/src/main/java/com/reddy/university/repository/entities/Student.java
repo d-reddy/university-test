@@ -11,19 +11,19 @@ public class Student {
     private Integer id;
     private List<UniversityClass> universityClasses = new ArrayList<>();
 
+    public Student(Integer id){
+        this.id = id;
+    }
+
     public List<UniversityClass> getUniversityClasses() {
         return universityClasses;
     }
 
-    public void setUniversityClasses(List<UniversityClass> universityClasses) {
-        this.universityClasses = universityClasses;
+    public void addUniversityClass(UniversityClass universityClass){
+        this.universityClasses.add(universityClass);
     }
 
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 }

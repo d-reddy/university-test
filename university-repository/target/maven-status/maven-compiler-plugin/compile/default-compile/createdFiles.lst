@@ -1,0 +1,11 @@
+com\reddy\university\repository\impl\Database.class
+com\reddy\university\repository\IDatabase.class
+com\reddy\university\repository\entities\UniversityClass.class
+com\reddy\university\repository\impl\ProfessorRepository.class
+com\reddy\university\repository\IProfessorRepository.class
+com\reddy\university\repository\impl\StudentRepository.class
+com\reddy\university\repository\entities\Student.class
+com\reddy\university\repository\IStudentRepository.class
+com\reddy\university\repository\entities\Professor.class
+com\reddy\university\repository\IUniversityClassRepository.class
+com\reddy\university\repository\impl\UniversityClassRepository.class

@@ -11,19 +11,19 @@ public class Professor {
     private String name;
     private List<UniversityClass> universityClasses = new ArrayList<>();
 
-    public String getName() {
-        return name;
+    public Professor(String name){
+        this.name = name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     public List<UniversityClass> getUniversityClasses() {
         return universityClasses;
     }
 
-    public void setUniversityClasses(List<UniversityClass> universityClasses) {
-        this.universityClasses = universityClasses;
+    public void addUniversityClass(UniversityClass universityClass) {
+        this.universityClasses.add(universityClass);
     }
 }
