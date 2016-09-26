@@ -1,6 +1,6 @@
 #university-test
 
-This application provides an api to retrive the answers to the following questions regarding the relationships between university classes, professors, and students (supplied via an input csv file [Class, Professor, Student ID]).
+This application provides an api to retrieve the answers to the following questions regarding the relationships between university classes, professors, and students (supplied via an input csv file [Class, Professor, Student ID]).
 
 * List class sections being taught (i.e., unique Class/Professor pairs)
 * List classes being taken by each student
@@ -24,7 +24,7 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 * will map entities to domain objects
     
 ### university-repository
-* does the heavy lifting of mimicing a data layer
+* does the heavy lifting of mimic-ing a data layer
 * responsible for reading a provided csv file (location specified in configuration.yml file)
 * will build relationships between class, professor, and students
 * exposes repositories (IUniversityClassRepository, IProfessorRepository, IStudentRepository) to fetch entities
@@ -33,7 +33,7 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 1) This is a maven project.  After pulling this repository, simply issue the following command to build the application.
 > mvn clean package
 
-2) upon successful build, update configuration.yml file at root of repository
+2) upon successful build, update the configuration.yml file at root of repository
    - update inputFile to point to location of csv to init db
    - update log level if required
 
@@ -45,12 +45,14 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 ## Usage
 1) open a browser
 
-2) if not already installed it may be a good idea to have a json viewer extension installed
+2) if not already installed it may be a good idea to have a json viewer extension installed to more clearly see the report output
    ie JSONView Chrome extension
 
 3) hit this endpoint http://localhost:8080/report
 
 4) should see the output answering the questions above
+
+5) to update db data, simply update csv, and reload the page
 
 ## Testing
 To run the existing unit tests issue the following from the repository root
