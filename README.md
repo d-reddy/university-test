@@ -1,6 +1,6 @@
 #university-test
 
-This application provides an api to retrive the answer to the following questions regarding the relationships between university classes, professors, and students.
+This application provides an api to retrive the answers to the following questions regarding the relationships between university classes, professors, and students (supplied via an input csv file [Class, Professor, Student ID]).
 
 * List class sections being taught (i.e., unique Class/Professor pairs)
 * List classes being taken by each student
@@ -10,7 +10,7 @@ This application provides an api to retrive the answer to the following question
 * How many professors teach more than one Class?
 
 ## Module Summary
-This is a Java based application using the Dropwizard framework.  The application is composed of 3 main modules.
+This is a Java based application using the [Dropwizard](http://www.dropwizard.io/1.0.2/docs/ "Dropwizard") framework.  The application is composed of 3 main modules.
 
 ### university-api: 
 * bootstraps the dropwizard application (setting up google inject for DI, declaring the api, reading configuration, etc)
