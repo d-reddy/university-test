@@ -29,6 +29,10 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 * will build relationships between class, professor, and students
 * exposes repositories (IUniversityClassRepository, IProfessorRepository, IStudentRepository) to fetch entities
 
+### university-dist
+* has a dependency on all other modules
+* run application from target of this module as explained later
+
 ## Installation
 1) This is a maven project.  After pulling this repository, simply issue the following command to build the application.
 > mvn clean package
