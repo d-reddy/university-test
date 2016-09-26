@@ -2,7 +2,7 @@
 
 This application provides an api to retrive the answer to the following questions regarding the relationships between university classes, professors, and students.
 
-* List class sections being taught (I.e., unique Class/Professor pairs)
+* List class sections being taught (i.e., unique Class/Professor pairs)
 * List classes being taken by each student
 * List professors that teach at least two different classes that have two or more of the same students in each class they teach.  For  each professor that meets the criterion, list his/her classes and the common students. 
 * How many students are registered for each Class?  List them.
