@@ -1,6 +1,6 @@
 #university-test
 
-This application provides an api to retrieve the answers to the following questions regarding the relationships between university classes, professors, and students (supplied via an input csv file [Class, Professor, Student ID]).
+This application provides an api to retrieve the answers to the following questions regarding the relationships between university classes, professors, and students (supplied via an input csv file [Class(String), Professor(String), Student ID(Integer)]).
 
 * List class sections being taught (i.e., unique Class/Professor pairs)
 * List classes being taken by each student
