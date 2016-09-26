@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e7415b-867c-4a2b-a071-8b07424b4eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/original-university-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-api/target/original-university-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/university-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-api/target/university-api-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-dist/target/original-university-dist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-dist/target/original-university-dist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-dist/target/university-dist-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-dist/target/university-dist-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/original-university-domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-domain/target/original-university-domain-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/university-domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-domain/target/university-domain-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/original-university-repository-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-repository/target/original-university-repository-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/university-repository-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/university-repository/target/university-repository-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university-1.0-SNAPSHOT-shaded.pom" afterPath="$PROJECT_DIR$/target/university-1.0-SNAPSHOT-shaded.pom" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/university-api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/university-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-dist/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/university-dist/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/university-domain/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/university-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/surefire-reports/TEST-com.reddy.university.domain.services.UniversityClassServiceTest.xml" afterPath="$PROJECT_DIR$/university-domain/target/surefire-reports/TEST-com.reddy.university.domain.services.UniversityClassServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-domain/target/surefire-reports/com.reddy.university.domain.services.UniversityClassServiceTest.txt" afterPath="$PROJECT_DIR$/university-domain/target/surefire-reports/com.reddy.university.domain.services.UniversityClassServiceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/university-repository/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/surefire-reports/TEST-com.reddy.university.repository.DatabaseTest.xml" afterPath="$PROJECT_DIR$/university-repository/target/surefire-reports/TEST-com.reddy.university.repository.DatabaseTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/university-repository/target/surefire-reports/com.reddy.university.repository.DatabaseTest.txt" afterPath="$PROJECT_DIR$/university-repository/target/surefire-reports/com.reddy.university.repository.DatabaseTest.txt" />
     </list>
     <ignored path="university.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,20 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProfessorReportGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/reports/ProfessorReportGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2421#2443#0" expanded="true" />
-                <element signature="e#3834#3843#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProfessorReportGeneratorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/university-api/src/test/java/com/reddy/university/api/reports/ProfessorReportGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuration.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="configuration.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -195,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/mappers/UnivesityClassSummary.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/mappers/UnivesityClassSummaryMapper.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/models/report/UniversityClassSummary.java" />
         <option value="$PROJECT_DIR$/university-api/src/main/java/com/reddy/university/api/models/report/ReportSummary.java" />
@@ -246,6 +217,7 @@
         <option value="$PROJECT_DIR$/university-api/src/test/java/com/reddy/university/api/reports/StudentReportGeneratorTest.java" />
         <option value="$PROJECT_DIR$/university-api/src/test/java/com/reddy/university/api/reports/UniversityClassGeneratorTest.java" />
         <option value="$PROJECT_DIR$/configuration.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -805,7 +777,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40875232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23184358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3347779" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -865,18 +837,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/models/UniversityClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/university-domain/src/main/java/com/reddy/university/domain/DomainModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1328,6 +1288,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
