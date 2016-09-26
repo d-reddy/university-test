@@ -1,0 +1,3 @@
+com\reddy\university\api\reports\StudentReportGeneratorTest.class
+com\reddy\university\api\reports\ProfessorReportGeneratorTest.class
+com\reddy\university\api\reports\UniversityClassGeneratorTest.class

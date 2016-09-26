@@ -1,1 +1,3 @@
+com\reddy\university\domain\services\StudentClassServiceTest.class
 com\reddy\university\domain\services\UniversityClassServiceTest.class
+com\reddy\university\domain\services\ProfessorServiceTest.class
