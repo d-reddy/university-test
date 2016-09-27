@@ -1,4 +1,4 @@
-package com.reddy.university.api.integration;
+package com.reddy.university.api.loadTests;
 
 import com.reddy.university.api.UniversityApplication;
 import com.reddy.university.api.UniversityConfiguration;
