@@ -72,6 +72,7 @@ This test is called the RequestSimulationTest, and will kick off 100 async reque
 This is driven as part of issuing the mvn test command, in which you will see output similar to the following
 showing request start/complete logging.
 
+<p style="font-size:70%;">
 INFO  [2016-09-27 13:41:50,912] com.reddy.university.api.resources.ReportingResource: starting request 8af9d62a-9f6f-4f6a-8f00-3d566a95b3e7
 INFO  [2016-09-27 13:41:50,913] com.reddy.university.api.resources.ReportingResource: starting request ee5ebea0-a27f-4b5e-99b7-69b3aa5bd613
 INFO  [2016-09-27 13:41:50,913] com.reddy.university.api.resources.ReportingResource: starting request 54d3bcda-a947-40d2-9209-760cd10112cb
@@ -86,3 +87,4 @@ INFO  [2016-09-27 13:41:51,038] com.reddy.university.api.resources.ReportingReso
 INFO  [2016-09-27 13:41:51,044] com.reddy.university.api.resources.ReportingResource: starting request d106563a-dc21-43da-8208-25da99077c48
 INFO  [2016-09-27 13:41:51,046] com.reddy.university.api.resources.ReportingResource: starting request b934edf6-a640-403b-8be9-56627950c641
 INFO  [2016-09-27 13:41:51,049] com.reddy.university.api.resources.ReportingResource: completing request 35f7488f-102b-4576-ae3e-20035c90727d
+</p>
