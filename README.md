@@ -53,7 +53,7 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 1) open a browser
 
 2) if not already installed it may be a good idea to have a json viewer extension installed to more clearly see the report output
-   ie JSONView Chrome extension
+   ie [JSONView Chrome extension] (https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en "Extension")
 
 3) hit this endpoint http://localhost:8080/report
 
