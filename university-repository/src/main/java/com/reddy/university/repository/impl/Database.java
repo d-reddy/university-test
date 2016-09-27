@@ -9,6 +9,7 @@ import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.io.FilenameUtils;
 
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -35,7 +36,15 @@ public class Database implements IDatabase {
 
     @Inject
     public Database(@Named("inputFile") String inputFile){
-        this.file = new File(FilenameUtils.separatorsToSystem(inputFile));
+        ClassLoader classLoader = getClass().getClassLoader();
+        URL resourceLocation = classLoader.getResource(inputFile);
+
+        //use class resource if defined, otherwise use absolute path
+        if(resourceLocation != null){
+            this.file = new File(resourceLocation.getFile());
+        }else{
+            this.file = new File(FilenameUtils.separatorsToSystem(inputFile));
+        }
     }
 
     /**

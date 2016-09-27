@@ -1,5 +1,5 @@
 inputFile:
-  'D:\\git\\university\\input.csv'
+  'simulation.csv'
 
 logging:
   level: INFO
