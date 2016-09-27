@@ -1,0 +1,9 @@
+inputFile:
+  'D:\\git\\university\\input.csv'
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stderr

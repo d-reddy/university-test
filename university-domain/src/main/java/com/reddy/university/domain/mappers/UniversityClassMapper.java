@@ -18,13 +18,15 @@ public class UniversityClassMapper {
      */
     public static List<UniversityClass> toModels(List<com.reddy.university.repository.entities.UniversityClass> entities) throws Exception {
         try {
-            List<UniversityClass> models = new ArrayList<>();
-            entities.forEach(entity -> {
-                UniversityClass model = new UniversityClass(entity.getName(), entity.getProfessor().getName());
-                entity.getStudents().forEach(student -> model.addStudent(student.getId()));
-                models.add(model);
-            });
-            return models;
+            synchronized (entities){
+                List<UniversityClass> models = new ArrayList<>();
+                entities.forEach(entity -> {
+                    UniversityClass model = new UniversityClass(entity.getName(), entity.getProfessor().getName());
+                    entity.getStudents().forEach(student -> model.addStudent(student.getId()));
+                    models.add(model);
+                });
+                return models;
+            }
         } catch (Exception e){
             throw new Exception("error mapping university class", e);
         }

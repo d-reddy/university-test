@@ -19,7 +19,7 @@ import com.reddy.university.repository.impl.UniversityClassRepository;
 public class DomainModule extends AbstractModule {
     @Override
     protected void configure() {
-        bind(IDatabase.class).to(Database.class);
+        bind(IDatabase.class).to(Database.class).asEagerSingleton();
         bind(IProfessorService.class).to(ProfessorService.class);
         bind(IProfessorRepository.class).to(ProfessorRepository.class);
         bind(IStudentService.class).to(StudentService.class);
