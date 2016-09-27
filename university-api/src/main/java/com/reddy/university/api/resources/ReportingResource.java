@@ -5,16 +5,20 @@ import com.reddy.university.api.models.Report;
 import com.reddy.university.api.reports.*;
 import com.reddy.university.domain.*;
 import com.reddy.university.domain.models.*;
+import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by deven on 9/24/2016.
  */
 @Path("/report")
 public class ReportingResource {
+
+    final static Logger logger = Logger.getLogger(ReportingResource.class);
 
     private IUniversityClassService universityClassService;
     private IStudentService studentService;
@@ -34,6 +38,10 @@ public class ReportingResource {
         Report report = new Report();
 
         try {
+
+            UUID id = java.util.UUID.randomUUID();
+            logger.info("starting request " + id);
+
             //university class reports
             List<UniversityClass> universityClasses = this.universityClassService.get();
 
@@ -49,6 +57,8 @@ public class ReportingResource {
             List<Professor> professors = this.professorService.get();
             report.professorClassCountReport = ProfessorReportGenerator.teachMultipleClasses(professors);
             report.professorWith2OrMoreOfSameStudent = ProfessorReportGenerator.withTwoOrMoreCommonStudentsInEachClass(universityClasses);
+
+            logger.info("completing request " + id);
 
         } catch(Exception e){
             throw e;

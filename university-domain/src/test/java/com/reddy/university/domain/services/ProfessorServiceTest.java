@@ -50,13 +50,5 @@ public class ProfessorServiceTest {
         verify(professorRepositoryMock,times(1)).get();
     }
 
-    @Test
-    public void whenGetCalled_willMapCorrectly() throws Exception {
 
-        List<com.reddy.university.domain.models.Professor> professors = professorService.get();
-
-        Assert.assertEquals(professors.size(), 1);
-        Assert.assertEquals(professors.get(0).getUniversityClasses().size(), 1);
-        Assert.assertTrue(professors.get(0).getUniversityClasses().get(0).equals("Mathematics"));
-    }
 }

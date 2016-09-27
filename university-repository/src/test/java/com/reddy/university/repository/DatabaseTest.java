@@ -50,13 +50,13 @@ public class DatabaseTest {
 
         Database db = new Database(file);
 
-        List<UniversityClass> classes = db.getUniversityClasses();
+        db.getUniversityClasses();
     }
 
 
-    @Test(expected=FileNotFoundException.class)
+    @Test(expected=Exception.class)
     public void whenInputFileNotFound_throwsException() throws Exception {
         Database db = new Database("/does/not/exist");
-        List<UniversityClass> classes = db.getUniversityClasses();
+        db.getUniversityClasses();
     }
 }

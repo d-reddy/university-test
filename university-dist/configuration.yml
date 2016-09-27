@@ -1,5 +1,5 @@
 inputFile:
-  'D:\\git\\university\\input.csv'
+  'input.csv'
 
 logging:
   level: DEBUG

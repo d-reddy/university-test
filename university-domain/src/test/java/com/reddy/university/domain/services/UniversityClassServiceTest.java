@@ -45,17 +45,6 @@ public class UniversityClassServiceTest{
     public void whenGetCalled_hitsUniversityClassRepository1Time() throws Exception {
 
         universityClassService.get();
-
         verify(universityClassRepositoryMock,times(1)).get();
-    }
-
-    @Test
-    public void whenGetCalled_willMapCorrectly() throws Exception {
-
-        List<com.reddy.university.domain.models.UniversityClass> classes = universityClassService.get();
-
-        Assert.assertEquals(classes.size(), 1);
-        Assert.assertEquals(classes.get(0).getStudents().size(), 2);
-        Assert.assertTrue(classes.get(0).getProfessor().equals("Jim"));
     }
 }

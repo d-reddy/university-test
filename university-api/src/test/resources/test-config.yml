@@ -1,0 +1,9 @@
+inputFile:
+  'simulation.csv'
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stderr
