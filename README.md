@@ -33,15 +33,18 @@ This is a Java based application using the [Dropwizard](http://www.dropwizard.io
 * has a dependency on all other modules
 * run application from target of this module as explained later
 
+## Requirements
+* java 1.8 runtime
+* maven
+
 ## Installation
-1) This is a maven project.  After pulling this repository, simply issue the following command to build the application.
+1) This is a maven project.  After pulling this repository, simply issue the following command to build the application from the root of the repository.
 > mvn clean package
 
-2) upon successful build, update the configuration.yml file at root of repository
-   - update inputFile to point to location of csv to init db
-   - update log level if required
+2) navigate to university-dist\target directory
 
-3) navigate to university-dist\target  directory and issue the following command
+3) update the configuration.yml file to point to a different csv if need be, defaults to input.csv, and issue command
+
 > java -jar university-dist-1.0-SNAPSHOT.jar server configuration.yml
 
 4) jetty server should be up and running listening on port 8080
