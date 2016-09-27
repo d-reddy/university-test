@@ -10,6 +10,8 @@ import javax.ws.rs.client.AsyncInvoker;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.Response;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.Future;
 
 import static io.dropwizard.testing.ResourceHelpers.resourceFilePath;
@@ -17,20 +19,35 @@ import static io.dropwizard.testing.ResourceHelpers.resourceFilePath;
 /**
  * Created by deven on 9/26/2016.
  */
-public class RequestSimulationTests {
+public class RequestSimulationTest {
     @ClassRule
     public static final DropwizardAppRule<UniversityConfiguration> RULE =
             new DropwizardAppRule<UniversityConfiguration>(UniversityApplication.class, resourceFilePath("test-config.yml"));
 
     @Test
     public void loginHandlerRedirectsAfterPost() throws Exception {
+        List<Future<Response>> responses = new ArrayList();
+        List<Client> clients = new ArrayList();
+
         for(int i = 0; i <= 100; i++){
             Client client = ClientBuilder.newClient();
-            final AsyncInvoker asyncInvoker = client.target("http://localhost:8080/report")
+            clients.add(client);
+            AsyncInvoker asyncInvoker = client.target("http://localhost:8080/report")
                     .request().async();
-
-            final Future<Response> responseFuture = asyncInvoker.get();
-            client.close();
+            Future<Response> responseFuture = asyncInvoker.get();
+            responses.add(responseFuture);
         }
+
+        responses.forEach(responseFuture -> {
+            try {
+                Response response = responseFuture.get();
+                response.close();
+            }catch(Exception ex){
+            }
+        });
+
+        clients.forEach(client -> {
+           client.close();
+        });
     }
 }
