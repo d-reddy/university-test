@@ -73,11 +73,18 @@ This is driven as part of issuing the mvn test command, in which you will see ou
 showing request start/complete logging.
 
 [2016-09-27 13:41:50,912] com.reddy.university.api.resources.ReportingResource: starting request 8af9d62a-9f6f-4f6a-8f00-3d566a95b3e7
+
 [2016-09-27 13:41:50,913] com.reddy.university.api.resources.ReportingResource: starting request ee5ebea0-a27f-4b5e-99b7-69b3aa5bd613
+
 [2016-09-27 13:41:50,913] com.reddy.university.api.resources.ReportingResource: starting request 54d3bcda-a947-40d2-9209-760cd10112cb
+
 [2016-09-27 13:41:50,913] com.reddy.university.api.resources.ReportingResource: starting request 1c988630-eb35-4bc0-851d-46ea86069f02
 ...
+
 [2016-09-27 13:41:51,013] com.reddy.university.api.resources.ReportingResource: starting request 853dc7cb-0221-4cbb-8929-d706bb2ddd6a
+
 [2016-09-27 13:41:51,016] com.reddy.university.api.resources.ReportingResource: completing request 936c8431-1600-4ec2-99b1-d5eac943cb3d
+
 [2016-09-27 13:41:51,023] com.reddy.university.api.resources.ReportingResource: completing request 24896adf-f904-496f-af36-9f61cf96ee24
+
 [2016-09-27 13:41:51,033] com.reddy.university.api.resources.ReportingResource: starting request ed22bce3-6ddf-4722-aa87-0d873c853d7e
