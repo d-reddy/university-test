@@ -6,6 +6,7 @@ import com.reddy.university.repository.IDatabase;
 import com.reddy.university.repository.entities.*;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.commons.io.FilenameUtils;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -34,7 +35,7 @@ public class Database implements IDatabase {
 
     @Inject
     public Database(@Named("inputFile") String inputFile){
-        this.file = new File(inputFile);
+        this.file = new File(FilenameUtils.separatorsToSystem(inputFile));
     }
 
     /**
